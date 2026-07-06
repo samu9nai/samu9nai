@@ -20,7 +20,8 @@
 ![Vue](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vue/vue1.svg)
 
 ###### Deployment & Cloud Services:
-[![My Skills](https://skillicons.dev/icons?i=docker,vercel,aws,gcp&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=docker,vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp&theme=light)](https://skillicons.dev)
 
 ###### Database Management:
 [![DB](https://skillicons.dev/icons?i=mysql,redis&theme=light)](https://skillicons.dev)
