@@ -1,10 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:F1B5F6,100:75CAE8&height=120&section=header)
-
 <div align="center">
 
 # Mingyu Joung
 
-**Backend Developer · Java & Spring**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=75CAE8&center=true&vCenter=true&width=520&lines=Backend+Developer+%C2%B7+Java+%26+Spring" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=1F6F94&center=true&vCenter=true&width=520&lines=Backend+Developer+%C2%B7+Java+%26+Spring" alt="Backend Developer · Java & Spring" />
+</picture>
 
 I like knowing what the framework does for me, and I check that a test fails before I call a bug fixed.
 
@@ -105,6 +106,14 @@ A marketplace for Hongik University students to trade used textbooks, with real-
   <img src="https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
+**Collaboration**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-18181B?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Figma-18181B?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Notion-18181B?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
+</p>
+
 **AI Coding Agents**
 
 <p>
@@ -114,10 +123,6 @@ A marketplace for Hongik University students to trade used textbooks, with real-
 
 Also worked with **Flyway, Vite, Tailwind CSS, Playwright, Vitest, and Flask**.
 
-## Coding Activity
+## Problem Solving
 
-<div align="center">
-
-[![codemaru card for samu9nai](https://codemaru.bnbong.com/api/card.svg?github=samu9nai&boj=chino&theme=transparent)](https://solved.ac/chino)
-
-</div>
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=chino)](https://solved.ac/chino)
