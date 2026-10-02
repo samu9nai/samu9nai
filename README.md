@@ -29,7 +29,7 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Collaboration Service for Visitors to Korea
 
-**Backend & Frontend · KB IT's Your Life Final Project · 8 people · 4 weeks**
+**Full-stack · KB IT's Your Life Final Project**
 
 A mobile-first service for foreign visitors to Korea: meetups, wallet and QR payments, expense splitting, and trip reports. Served in English, Japanese, Traditional Chinese, and Vietnamese.
 
@@ -41,7 +41,7 @@ A mobile-first service for foreign visitors to Korea: meetups, wallet and QR pay
 
 ### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
 
-**Backend · Team Project · 9 days** · [client](https://github.com/jittaejap/sottaejap-client) · [live](https://sottaejap-client.vercel.app)
+**Backend · Team Project · Hackathon** · [Overview](https://github.com/jittaejap)
 
 Asks "was it worth it?" when the time of a past payment comes around again, then turns the answers into a satisfaction map and saving suggestions.
 
