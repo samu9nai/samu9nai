@@ -28,21 +28,21 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Service for Visitors to Korea
 
-<sub>Full-stack · KB IT's Your Life Final Project</sub>
+###### Full-stack · KB IT's Your Life Final Project · 2026 · 🏆 Top Prize
 
 - Wired Spring MVC by hand without Spring Boot
 - Built Google and LINE OAuth 2.0 / OIDC login without an auth library
 
 ### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
 
-<sub>Backend · Team Project · Hackathon · [Overview](https://github.com/jittaejap)</sub>
+###### Backend · Team Project · 2026 · Hackathon · [Overview](https://github.com/jittaejap)
 
 - Owned the rule engine and Flyway migrations, keeping AI calls at the edges
 - Reproduced a Hibernate lost update on real PostgreSQL and proved the fix with a failing test
 
 ### [HongBookStore](https://github.com/HongikBookStore/HongBookStore) · Used Textbook Marketplace for Hongik University
 
-<sub>Full-stack · Graduation project · 2025 · Top contributor · [rev](https://github.com/samu9nai/hongbookstore-rev) (refactoring in progress)</sub>
+###### Full-stack · Graduation project · 2025 · 🏆 Excellence Prize · [rev](https://github.com/samu9nai/hongbookstore-rev) (refactoring in progress)
 
 - Integrated Naver Maps and place search, and added a profanity filter
 - Upgraded the stack to React 19 and Spring Boot 3.5
