@@ -13,52 +13,39 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ## About Me
 
-- Build backend services with **Java, Spring, and relational databases**, and ship the Vue/React frontends that sit on them
-- Wired **Spring MVC without Spring Boot** to learn what auto-configuration hides
-- Care about **trust boundaries**: auth flows, concurrency, and what a system does and does not guarantee
-- Work with **AI coding agents daily**, giving them repository rules first and reporting verified and unverified results separately
+- Build backend services with **Java and Spring**, plus the Vue/React frontends on top
+- Care about **trust boundaries**: auth, concurrency, and what a system guarantees
+- Work with **AI coding agents** daily, rules first
 
 ## Background
 
-| | |
-|---|---|
-| **Program** | KB IT's Your Life 7th · 2026 |
-| **Education** | Hongik University · Computer Engineering |
+<table>
+  <tr><td><b>Program</b></td><td>KB IT's Your Life 7th · 2026</td></tr>
+  <tr><td><b>Education</b></td><td>Hongik University · Computer Engineering</td></tr>
+</table>
 
 ## Selected Projects
 
-### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Collaboration Service for Visitors to Korea
+### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Service for Visitors to Korea
 
-**Full-stack · KB IT's Your Life Final Project**
+<sub>Full-stack · KB IT's Your Life Final Project</sub>
 
-A mobile-first service for foreign visitors to Korea: meetups, wallet and QR payments, expense splitting, and trip reports. Served in English, Japanese, Traditional Chinese, and Vietnamese.
-
-- Wired Spring MVC 5.3 by hand on a WAR without Spring Boot: DispatcherServlet, Security filter chain, transactions, HikariCP, MyBatis, Flyway
-- Implemented Google and LINE OAuth 2.0 / OIDC without delegating to a library: ID token verification, PKCE, rotating refresh tokens with reuse detection, and no account merging by matching email
-- Built the report comparison API with a four-table join and `ROW_NUMBER()`, returning cohort averages without exposing individuals
-- Enforced design tokens with a custom ESLint rule and self-hosted CJK fonts as 229 `unicode-range` slices
-- Opened 124 PRs and left 131 review comments, the most on the team
+- Wired Spring MVC by hand without Spring Boot
+- Built Google and LINE OAuth 2.0 / OIDC login without an auth library
 
 ### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
 
-**Backend · Team Project · Hackathon** · [Overview](https://github.com/jittaejap)
+<sub>Backend · Team Project · Hackathon · [Overview](https://github.com/jittaejap)</sub>
 
-Asks "was it worth it?" when the time of a past payment comes around again, then turns the answers into a satisfaction map and saving suggestions.
-
-- Owned the deterministic rule engine and Flyway migrations, keeping AI calls at the edges
-- Found a lost update caused by Hibernate's full-column `UPDATE`, reproduced the race on real PostgreSQL, fixed it with `@DynamicUpdate`, and confirmed the test fails (`expected 20000, was 0`) when the fix is removed
-- Closed an unauthenticated internal endpoint in production by moving the trust boundary from Nginx into code with a constant-time secret check
+- Owned the rule engine and Flyway migrations, keeping AI calls at the edges
+- Reproduced a Hibernate lost update on real PostgreSQL and proved the fix with a failing test
 
 ### [HongBookStore](https://github.com/HongikBookStore/HongBookStore) · Used Textbook Marketplace for Hongik University
 
-**Full-stack · Graduation Project · Mar–Nov 2025** · [rev](https://github.com/samu9nai/hongbookstore-rev)
+<sub>Full-stack · Graduation project · 2025 · Top contributor · [rev](https://github.com/samu9nai/hongbookstore-rev) (refactoring in progress)</sub>
 
-A marketplace for Hongik University students to trade used textbooks, with real-time chat, trade reservations, and map-based meetup spots.
-
-- Top contributor with 174 commits and 36 PRs
-- Integrated Naver Maps and place search, and added a profanity filter for posts
-- Upgraded the frontend and backend to new major versions (React 19, Spring Boot 3.5)
-- **rev**: refactoring the codebase after graduation (in progress)
+- Integrated Naver Maps and place search, and added a profanity filter
+- Upgraded the stack to React 19 and Spring Boot 3.5
 
 ## Tech Stack
 
