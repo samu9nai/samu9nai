@@ -28,7 +28,7 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Service for Visitors to Korea
 
-###### Full-stack · KB IT's Your Life Final Project · 2026 · 🏆 Top Prize
+###### Full-stack · KB IT's Your Life Final Project · 2026 · 🏆 Top Prize· [Overview](https://github.com/T-ravelers)
 
 - Wired Spring MVC by hand without Spring Boot
 - Built Google and LINE OAuth 2.0 / OIDC login without an auth library
