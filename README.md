@@ -1,34 +1,123 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:F1B5F6,100:75CAE8&height=120&section=header)
 
-###### Problem Solving & Algorithm
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=chino)](https://solved.ac/chino)
-<!-- ![AtCoder Rating](https://atcoder-disp-graph.tra.earth/disp-rate/samu9nai?contest-type=algo&graph-type=status) -->
+<div align="center">
 
-###### Languages & Syntax:
-![Java](https://ziadoua.github.io/m3-Markdown-Badges/badges/Java/java1.svg)
-![JS](https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg)
-![TS](https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript1.svg)
-![Python](https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg)
+# Mingyu Joung
 
-###### Backend & Frameworks:
-[![My Skills](https://skillicons.dev/icons?i=spring&theme=light)](https://skillicons.dev)
+**Backend Developer · Java & Spring**
 
-###### Frontend Development:
-![HTML](https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html1.svg)
-![CSS](https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css1.svg)
-![React](https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react1.svg)
-![Vue](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vue/vue1.svg)
+I like knowing what the framework does for me, and I check that a test fails before I call a bug fixed.
 
-###### Deployment & Cloud Services:
-[![My Skills](https://skillicons.dev/icons?i=docker,vercel)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp&theme=light)](https://skillicons.dev)
+</div>
 
-###### Database Management:
-[![DB](https://skillicons.dev/icons?i=mysql,redis&theme=light)](https://skillicons.dev)
+## About Me
 
-###### Development Environments:
-![Git](https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg)
-![GitHub](https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github1.svg)
-![MacOS](https://ziadoua.github.io/m3-Markdown-Badges/badges/macOS/macos1.svg)
-![IntelliJ IDEA](https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg)
-![Visual Studio Code](https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg)
+- Build backend services with **Java, Spring, and relational databases**, and ship the Vue/React frontends that sit on them
+- Wired **Spring MVC without Spring Boot** to learn what auto-configuration hides
+- Care about **trust boundaries**: auth flows, concurrency, and what a system does and does not guarantee
+- Work with **AI coding agents daily**, giving them repository rules first and reporting verified and unverified results separately
+
+## Background
+
+| | |
+|---|---|
+| **Program** | KB IT's Your Life 7th · 2026 |
+| **Education** | Hongik University · Computer Engineering |
+
+## Selected Projects
+
+### [NA-WA](https://github.com/T-ravelers/NA-WA) · Travel Collaboration Service for Visitors to Korea
+
+**Backend & Frontend · KB IT's Your Life Final Project · 8 people · 4 weeks**
+
+A mobile-first service for foreign visitors to Korea: meetups, wallet and QR payments, expense splitting, and trip reports. Served in English, Japanese, Traditional Chinese, and Vietnamese.
+
+- Wired Spring MVC 5.3 by hand on a WAR without Spring Boot: DispatcherServlet, Security filter chain, transactions, HikariCP, MyBatis, Flyway
+- Implemented Google and LINE OAuth 2.0 / OIDC without delegating to a library: ID token verification, PKCE, rotating refresh tokens with reuse detection, and no account merging by matching email
+- Built the report comparison API with a four-table join and `ROW_NUMBER()`, returning cohort averages without exposing individuals
+- Enforced design tokens with a custom ESLint rule and self-hosted CJK fonts as 229 `unicode-range` slices
+- Opened 124 PRs and left 131 review comments, the most on the team
+
+### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
+
+**Backend · Team Project · 9 days** · [client](https://github.com/jittaejap/sottaejap-client) · [live](https://sottaejap-client.vercel.app)
+
+Asks "was it worth it?" when the time of a past payment comes around again, then turns the answers into a satisfaction map and saving suggestions.
+
+- Owned the deterministic rule engine and Flyway migrations, keeping AI calls at the edges
+- Found a lost update caused by Hibernate's full-column `UPDATE`, reproduced the race on real PostgreSQL, fixed it with `@DynamicUpdate`, and confirmed the test fails (`expected 20000, was 0`) when the fix is removed
+- Closed an unauthenticated internal endpoint in production by moving the trust boundary from Nginx into code with a constant-time secret check
+
+### [HongBookStore](https://github.com/HongikBookStore/HongBookStore) · Used Textbook Marketplace for Hongik University
+
+**Full-stack · Graduation Project · Mar–Nov 2025** · [rev](https://github.com/samu9nai/hongbookstore-rev)
+
+A marketplace for Hongik University students to trade used textbooks, with real-time chat, trade reservations, and map-based meetup spots.
+
+- Top contributor with 174 commits and 36 PRs
+- Integrated Naver Maps and place search, and added a profanity filter for posts
+- Upgraded the frontend and backend to new major versions (React 19, Spring Boot 3.5)
+- **rev**: refactoring the codebase after graduation (in progress)
+
+## Tech Stack
+
+**Languages**
+
+<p>
+  <img src="https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Python-18181B?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+
+**Backend**
+
+<p>
+  <img src="https://img.shields.io/badge/Spring-18181B?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
+  <img src="https://img.shields.io/badge/Spring_Boot-18181B?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring_Security-18181B?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/Hibernate-18181B?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
+  <img src="https://img.shields.io/badge/MyBatis-18181B?style=flat-square" alt="MyBatis" />
+</p>
+
+**Frontend**
+
+<p>
+  <img src="https://img.shields.io/badge/Vue.js-18181B?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/React-18181B?style=flat-square&logo=react&logoColor=white" alt="React" />
+</p>
+
+**Database**
+
+<p>
+  <img src="https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-18181B?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+</p>
+
+**Infrastructure & Tools**
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-18181B?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Nginx-18181B?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/AWS_EC2-18181B?style=flat-square" alt="AWS EC2" />
+  <img src="https://img.shields.io/badge/Google_Cloud-18181B?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+**AI Coding Agents**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-18181B?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-18181B?style=flat-square" alt="Codex" />
+</p>
+
+Also worked with **Flyway, Vite, Tailwind CSS, Playwright, Vitest, and Flask**.
+
+## Coding Activity
+
+<div align="center">
+
+[![codemaru card for samu9nai](https://codemaru.bnbong.com/api/card.svg?github=samu9nai&boj=chino&theme=transparent)](https://solved.ac/chino)
+
+</div>
