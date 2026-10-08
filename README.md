@@ -42,7 +42,7 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ### [HongBookStore](https://github.com/HongikBookStore/HongBookStore) · Used Textbook Marketplace for Hongik University
 
-###### Full-stack · Graduation project · 2025 · 🏆 Excellence Prize · [refactoring](https://github.com/samu9nai/hongbookstore) (refactoring in progress)
+###### Full-stack · Graduation Project · 2025 · 🏆 Honorable Mention · [refactoring](https://github.com/samu9nai/hongbookstore) (refactoring in progress)
 
 - Integrated Naver Maps and place search, and added a profanity filter
 - Upgraded the stack to React 19 and Spring Boot 3.5
