@@ -31,21 +31,21 @@ I like knowing what the framework does for me, and I check that a test fails bef
 ###### Full-stack · KB IT's Your Life Final Project · 2026 · 🏆 Top Prize· [Overview](https://github.com/T-ravelers)
 
 - Wired Spring MVC by hand without Spring Boot
-- Built Google and LINE OAuth 2.0 / OIDC login without an auth library
+- Built Google and LINE OAuth 2.0 / OIDC login without Spring Security's `oauth2Login()`, with rotating refresh tokens and reuse detection
 
 ### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
 
 ###### Backend · Team Project · 2026 · Hackathon · [Overview](https://github.com/jittaejap)
 
-- Owned the rule engine and Flyway migrations, keeping AI calls at the edges
+- Built the rule engine's grouping and verdict rules as pure functions, keeping AI calls at the edges
 - Reproduced a Hibernate lost update on real PostgreSQL and proved the fix with a failing test
 
 ### [HongBookStore](https://github.com/HongikBookStore/HongBookStore) · Used Textbook Marketplace for Hongik University
 
 ###### Full-stack · Graduation Project · 2025 · 🏆 Honorable Mention · [refactoring](https://github.com/samu9nai/hongbookstore) (refactoring in progress)
 
-- Integrated Naver Maps and place search, and added a profanity filter
-- Upgraded the stack to React 19 and Spring Boot 3.5
+- Built social login (Google, Naver, Kakao) and reimplemented school email verification with server-issued tokens
+- Served and deployed the profanity-filter inference server (Flask, Cloud Run) and wired it into Spring
 
 ## Tech Stack
 
@@ -109,6 +109,12 @@ I like knowing what the framework does for me, and I check that a test fails bef
 </p>
 
 Also worked with **Flyway, Vite, Tailwind CSS, Playwright, Vitest, and Flask**.
+
+## Contact
+
+- **Blog**: [blog.samu9nai.workers.dev](https://blog.samu9nai.workers.dev)
+- **Resume**: [blog.samu9nai.workers.dev/resume](https://blog.samu9nai.workers.dev/resume/)
+- **Email**: [samu9nai@gmail.com](mailto:samu9nai@gmail.com)
 
 ## Problem Solving
 
