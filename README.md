@@ -35,7 +35,7 @@ I like knowing what the framework does for me, and I check that a test fails bef
 
 ### [sottaejap](https://github.com/jittaejap/sottaejap-server) · Spending Reflection Service
 
-###### Backend · Team Project · 2026 · Hackathon · [Overview](https://github.com/jittaejap)
+###### Backend · Team Project · 2026 · Hackathon · 🏆 Honorable Mention · [Overview](https://github.com/jittaejap)
 
 - Built the rule engine's grouping and verdict rules as pure functions, keeping AI calls at the edges
 - Reproduced a Hibernate lost update on real PostgreSQL and proved the fix with a failing test
